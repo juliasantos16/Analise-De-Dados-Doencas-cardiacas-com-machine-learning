@@ -1,31 +1,30 @@
-# Data-Analysis-Heart-Diseases-with-machine-learning
+# 📊 Estrutura do Projeto
 
-## 📊 Exploratória dos Dados
-Carreguei o arquivo cardio_train.csv e dele se obteve um entendimento das características das variáveis. As principais étapas incluem:
+## Análise Geral dos Dados
+- O conjunto de dados contém variáveis como idade, altura, peso, pressão arterial, colesterol, glicose, tabagismo, consumo de álcool e atividade física.
+- Análise estatística e visualização dos dados para entender distribuições e correlações.
 
-**Visualização inicial:** Com uso do head() para visualizar as primeiras linhas do dataset.
+## Pré-processamento
+- Tratamento de valores ausentes e inconsistentes.
+- Normalização e codificação de variáveis categóricas.
+- Balanceamento dos dados para evitar viés no modelo.
 
-**Informações gerais:** Com info() e describe() para obter as estatísticas descritivas das variáveis.
+## Treinamento de Modelos
+- Teste com diferentes algoritmos de Machine Learning, como Regressão Logística, Random Forest, e Redes Neurais.
+- Ajuste de hiperparâmetros para otimizar a performance.
 
-**Mudança de unidade para a idade:** A idade estava apresentada em dias, eu a converti para anos, facilitando sua interpretação e obtenção de média de idade.
+## Avaliação e Resultados
+Comparação de métricas como acurácia, precisão, recall e F1-score.
+Análise da importância das features na predição da doença.
 
-**Verificação de valores NaN:** Nenhum NaN foi encontrado, ou seja, que o dataset está completo e não faltou informação.
+## 🚀 Tecnologias Utilizadas
+- Python
+- Pandas, NumPy, Matplotlib, Seaborn
+- Scikit-learn
 
-## 🔍 Análise Exploratória dos Dados (EDA)
-A Análise Exploratória de Dados (EDA) foi utilizada para encontrar padrões, anomalias e ter um insight preliminar sobre o dataset.
+  ## Todas as Bibliotecas utilizadas:
 
-## Dados numéricos
-Uso de gráficos de boxplot para visualização da distribuição de variáveis como a idade (em anos), do peso, da pressão arterial sistólica e diastólica. Ferramentas: Plotly para a criação de gráficos interativos.
-
-## Dados categóricos
-Visualização da distribuição das categorias para variáveis como gênero, colesterol, glicose, tabagismo, consumo de álcool e nível de atividade física. Foram usados gráficos de barras para facilitar a interpretação 
-
-## 🤖 Construção do Modelo de Machine Learning
-## Preparação dos Dados
-Definição das variáveis:
-Y: variável alvo representando a presença (1), ou ausência (0), das doenças cardíacas.
-X: conjunto de características preditivas.
-Divisão dos dados: separação nos conjuntos de treino e teste usando a função train_test_split (33% para teste).
-
-## Treinamento do Modelo
-Algoritmo utilizado: RandomForestClassifier do scikit-learn, com 20 estimadores e profundidade máxima de 4. O modelo foi treinado para identificação de padrões e para prever o risco de doenças do coração a partir das variáveis do dataset. 
+- pandas, numpy, matplotlib, plotly (para manipulação e visualização de dados)
+- shap (para interpretabilidade do modelo)
+- scikit-learn (train_test_split, classification_report, permutation_importance)
+- RandomForestClassifier (modelo de machine learning utilizado)
