@@ -14,10 +14,10 @@ Carreguei o arquivo cardio_train.csv e dele se obteve um entendimento das caract
 ## 🔍 Análise Exploratória dos Dados (EDA)
 A Análise Exploratória de Dados (EDA) foi utilizada para encontrar padrões, anomalias e ter um insight preliminar sobre o dataset.
 
-**Dados numéricos**
+## Dados numéricos
 Uso de gráficos de boxplot para visualização da distribuição de variáveis como a idade (em anos), do peso, da pressão arterial sistólica e diastólica. Ferramentas: Plotly para a criação de gráficos interativos.
 
-**Dados categóricos**
+## Dados categóricos
 Visualização da distribuição das categorias para variáveis como gênero, colesterol, glicose, tabagismo, consumo de álcool e nível de atividade física. Foram usados gráficos de barras para facilitar a interpretação 
 
 ## 🤖 Construção do Modelo de Machine Learning
