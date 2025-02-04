@@ -21,11 +21,11 @@ Uso de gráficos de boxplot para visualização da distribuição de variáveis 
 Visualização da distribuição das categorias para variáveis como gênero, colesterol, glicose, tabagismo, consumo de álcool e nível de atividade física. Foram usados gráficos de barras para facilitar a interpretação 
 
 ## 🤖 Construção do Modelo de Machine Learning
-**Preparação dos Dados**
+## Preparação dos Dados
 Definição das variáveis:
 Y: variável alvo representando a presença (1), ou ausência (0), das doenças cardíacas.
 X: conjunto de características preditivas.
 Divisão dos dados: separação nos conjuntos de treino e teste usando a função train_test_split (33% para teste).
 
-**Treinamento do Modelo**
+## Treinamento do Modelo
 Algoritmo utilizado: RandomForestClassifier do scikit-learn, com 20 estimadores e profundidade máxima de 4. O modelo foi treinado para identificação de padrões e para prever o risco de doenças do coração a partir das variáveis do dataset. 
