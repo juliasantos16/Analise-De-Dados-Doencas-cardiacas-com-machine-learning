@@ -3,16 +3,16 @@
 Este projeto usa machine learning para analisar dados clínicos e prever o risco de doenças cardíacas. A ideia é transformar números e estatísticas em insights valiosos que possam ajudar na prevenção e no diagnóstico precoce.
 
 # 💡 Como isso funciona?
-# 📊 Analisamos os dados
+## 📊 Analisamos os dados
 Pegamos informações como idade, pressão arterial, colesterol, glicose, tabagismo e hábitos de vida para entender padrões e relações entre eles.
 
-# 🛠️ Preparamos tudo para o modelo
+## 🛠️ Preparamos tudo para o modelo
 Limpamos e organizamos os dados, garantindo que estejam prontos para serem processados por um modelo de Machine Learning.
 
-# 🤖 Treinamos um modelo inteligente
+## 🤖 Treinamos um modelo inteligente
 Utilizamos o algoritimo chamado Random Forest, que aprende com os dados e consegue identificar quais fatores são mais relevantes na previsão de doenças cardíacas.
 
-# 🔍 Interpretamos os resultados
+## 🔍 Interpretamos os resultados
 Usamos técnicas como o SHAP para mostrar quais fatores tiveram mais peso na decisão do modelo.
 
 
